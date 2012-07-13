@@ -1,0 +1,87 @@
+/*
+    Theme Name: Me Toob
+    Theme URI: http://wordpress.org/
+    Description: Theme for presenting videos.
+    Author: KevinBoucher.com
+    Author URI: http://wordpress.org/
+
+    Version: 1.0
+
+    Tags: two-columns, fixed-width, custom-header, custom-background
+    License:
+    License URI:
+
+    General comments (optional).
+*/
+
+/* ----------------------------------------------------------- //
+   Dark Blue:           #272F32
+   Dark Medium Blue:    #769299
+   Medium Blue:         #9DBDC6
+   Light Blue:          #DAEAEF
+   Dark Red:            #AA2F29
+   Medium Red:          #D11C1C
+   Bright Red:          #FF3D2E
+// ----------------------------------------------------------- */
+
+/* ----------------------------------------------------------- //
+   Global
+// ----------------------------------------------------------- */
+
+html {
+    background:#fff url(images/bg_Html.gif) repeat-x scroll top left;
+    font-family:Helvetica, Arial, Sans-Serif; font-size:10pt;
+}
+
+body { color:#272F32; }
+
+a { color:#769299; }
+
+.error { color:#D11C1C; }  
+
+.closeButton {
+    background:transparent url(images/button_Close.png) no-repeat scroll top left;
+    border:solid #769299 2px; color:#272F32;
+}
+
+#Header { height:60px; }
+
+#Title .siteTitle { background:transparent url(images/dhl_banner_logo23b.png) repeat-x scroll top left; margin:9px 0 0; width:145px; }
+#Title .siteTitle a { height:44px; width:145px; }
+
+#MainNavigation ul li a:hover { color:#D11C1C; }
+
+#VideoLibrary .listing:hover, #VideoLibrary .selected, #SendToFriendForm .listing { background:#DAEAEF; }
+#VideoLibrary .listing:hover .description h4 a, #SendToFriendForm .listing .description h4 a { color:#272F32; }
+#VideoLibrary .thumbnail, #SendToFriendForm .thumbnail { border:solid #9DBDC6 1px; }
+#VideoLibrary .description h4 a, #SendToFriendForm .description h4 a { color:#769299; }
+#VideoLibrary .description h4 a:hover, #SendToFriendForm .description h4 a { color:#272F32; }
+
+#Footer { border-top:solid #DAEAEF 1px; color:#9DBDC6; }
+#FooterNavigation ul li a { color:#9DBDC6; }
+#FooterNavigation ul li a:hover { color:#D11C1C; }
+
+/* Home & Post pages */
+
+#VideoDiv { border:solid #DAEAEF 1px; }
+
+#SendToFriendForm .fieldLabelPair input { border:solid #769299 1px; }
+#SendToFriendForm .preview { border:dashed #DAEAEF 1px; }
+#SendToFriendForm input.error { background:#F8E0E0; border:solid #D11C1C 1px; }
+
+#SuccessMessage p.successTitle { color:#769299; }
+
+#CommentsDiv .comment-author .fn { color:#769299; }
+#CommentsDiv .comment-meta { color:#9DBDC6; }
+#CommentsDiv .comment-edit-link { color:#D11C1C; }
+#commentform { border-top: 1px solid #DAEAEF; }
+
+.comment { border-top:solid #DAEAEF 1px; }
+.commenter { color:#769299; }
+.commentDetails { color:#9DBDC6; }
+
+/* jQuery styles */
+
+.dialog { background:#769299; border:solid #769299 2px; }
+.ui-dialog-titlebar { background:#769299; }
+.ui-dialog-title { color:#fff; }

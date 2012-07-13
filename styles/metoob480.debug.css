@@ -1,0 +1,8 @@
+/* Style adjustments for viewports 480px and over go here */
+
+#main-video video,
+#main-video iframe { height:248px; width:440px; }
+
+#content { padding:0 2em; }
+
+footer { margin:1em 2em; }
